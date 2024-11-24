@@ -7,7 +7,7 @@ const meta: Meta<typeof Modal> = {
   component: Modal,
   decorators: [
     (Story) => (
-      <div className="min-h-80 flex items-center justify-center bg-gradient-to-r from-pink-500 to-blue-500">
+      <div className="min-h-80 flex items-center justify-center bg-gradient-to-r from-purple-500 to-blue-500">
         <Story />
       </div>
     ),
